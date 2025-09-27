@@ -1,0 +1,47 @@
+.calendar-strip {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.current-date {
+  background: linear-gradient(to right, #4a90e2, #67b26f);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.current-date:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-popper {
+  position: absolute;
+  z-index: 1000;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 10px;
+}
+
+/* Custom styles for react-datepicker */
+.react-datepicker {
+  font-family: inherit;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.react-datepicker__header {
+  background-color: white;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.react-datepicker__day--selected {
+  background: linear-gradient(to right, #4a90e2, #67b26f);
+  border-radius: 50%;
+}

@@ -1,0 +1,53 @@
+.statistics-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.chart-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+  height: 400px;
+  position: relative;
+}
+
+.stats-summary {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.stats-summary h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.stats-summary p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .chart-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .chart-container {
+    height: 300px;
+  }
+}

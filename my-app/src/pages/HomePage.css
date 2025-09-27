@@ -1,0 +1,30 @@
+.home-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.calendar-section {
+  margin-bottom: 30px;
+}
+
+.progress-section,
+.tasks-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.progress-section h2,
+.tasks-section h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  color: #333;
+}
